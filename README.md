@@ -1,6 +1,6 @@
 # ERC20
 
-This is the code for a smart contract written in Solidity, a programming language used to write smart contracts for the Ethereum blockchain. The contract is called ERC20TD, and it appears to be an implementation of the ERC20 standard for tokens on Ethereum, with additional functionality for managing a whitelist of approved customers, and for setting different customer tiers with different token purchase limits.
+This is the code for a smart contract written in Solidity. The contract is called ERC20TD, and it is an implementation of the ERC20 standard for tokens on Ethereum, with additional functionality for managing a whitelist of approved customers, and for setting different customer tiers with different token purchase limits.
 
 The contract has an Evaluator contract as a dependency, which is used to get the ticker symbol and initial token supply for the contract. It also has a constructor function that is called when the contract is deployed, which sets the name, symbol, and totalSupply of the token based on the ticker and supply returned by the Evaluator, and sets the owner of the contract to the sender of the deployment transaction.
 
